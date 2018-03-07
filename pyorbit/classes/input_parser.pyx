@@ -4,7 +4,6 @@ from ..models.planets import CommonPlanets
 from ..models.activity import CommonActivity
 from ..models.radial_velocities import RVkeplerian, RVdynamical, TransitTimeKeplerian, TransitTimeDynamical, DynamicalIntegrator
 from ..models.gp_semiperiodic_activity import GaussianProcess_QuasiPeriodicActivity
-from ..models.celerite_semiperiodic_activity import Celerite_QuasiPeriodicActivity
 from ..models.correlations import Correlation_SingleDataset
 from ..models.polynomial_trend import CommonPolynomialTrend, PolynomialTrend
 
