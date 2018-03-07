@@ -9,6 +9,8 @@ if 'celerite' not in sys.modules:
         from dummy import DiffEvol
         print('WARNING! Imported dummy pyde, nothing will work')
 
+    import numpy as np
+
     try:
         import PyPolyChord
         from PyPolyChord.settings import PolyChordSettings
