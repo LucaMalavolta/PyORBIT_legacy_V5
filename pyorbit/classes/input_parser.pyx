@@ -26,7 +26,6 @@ define_type_to_class = {
                      'keplerian': TransitTimeKeplerian,
                      'dynamical': TransitTimeDynamical},
     'gp_quasiperiodic': GaussianProcess_QuasiPeriodicActivity,
-    'celerite_quasiperiodic': Celerite_QuasiPeriodicActivity,
     'correlation_singledataset': Correlation_SingleDataset,
     'polynomial_trend': PolynomialTrend
 }
